@@ -1,0 +1,40 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x14\x00G\x00L\x00U\x00T\x00_\x00T\x00e\x00s\x00t\x001)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index-Host System=0
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=/home/zadock/projects/GLUT_Test1/build
+Build Type=Debug
+CMake Binary=/usr/bin/cmake
+CMake Executable=/usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=
+Runtime=Host System
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=glut_test1
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x14\x00G\x00L\x00U\x00T\x00_\x00T\x00e\x00s\x00t\x001\x00\x00\x00\x14\x00g\x00l\x00u\x00t\x00_\x00t\x00e\x00s\x00t\x001)
+Dependency Action=Build
+EnvironmentGroup=
+Executable=file:///home/zadock/projects/GLUT_Test1
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=GLUT_Test1,glut_test1
+Use External Terminal=false
+Working Directory=
+isExecutable=false
+
+[Project]
+VersionControlSupport=kdevgit

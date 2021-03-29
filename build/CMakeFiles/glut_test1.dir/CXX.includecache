@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zadock/projects/GLUT_Test1/main.cpp
+iostream
+-
+GLES3/gl3.h
+-
+GL/glut.h
+-
+

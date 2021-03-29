@@ -1,0 +1,1 @@
+/usr/bin/x86_64-linux-gnu-g++-9    -rdynamic CMakeFiles/glut_test1.dir/main.cpp.o  -o glut_test1  -lGL -lGLU -lglut -lXi 
